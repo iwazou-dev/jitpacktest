@@ -12,3 +12,4 @@ plugins {
 
 rootProject.name = 'jitpacktest'
 include('jitpacktest-lib')
+include('jitpacktest-api')
