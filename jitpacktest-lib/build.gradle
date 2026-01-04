@@ -26,7 +26,8 @@ dependencies {
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 
     // implementation project(':jitpacktest-api')
-    implementation project(':jitpacktest-common')
+    // implementation project(':jitpacktest-common')
+    api project(':jitpacktest-common')
 }
 
 // Apply a specific Java toolchain to ease working on different environments.
